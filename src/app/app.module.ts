@@ -18,7 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AuthModule } from '@auth0/auth0-angular';
 import { environment as env } from '../environments/environment';
-import { LoginButtonComponent } from './components/login-button/login-button.component'
+import { LoginButtonComponent } from './components/login-button/login-button.component';
+import { SignupButtonComponent } from './components/signup-button/signup-button.component'
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { LoginButtonComponent } from './components/login-button/login-button.com
     ProfileComponent,
     ExternalApiComponent,
     LoginButtonComponent,
+    SignupButtonComponent,
   ],
   imports: [
     BrowserModule,
